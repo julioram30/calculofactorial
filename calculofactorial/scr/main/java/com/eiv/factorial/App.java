@@ -11,7 +11,7 @@ public class App {
 		Scanner entrada = new Scanner(System.in);
 		sTrentero=entrada.nextLine();
 		int entero=Integer.parseInt(sTrentero);
-		CalculoFactorialImpl Factorial =new CalculoFactorialImpl();
+		CalculoFactorialAlt2Impl Factorial =new CalculoFactorialAlt2Impl();
 		
 		resultado=Factorial.Calcular(entero);
 	    System.out.println(resultado);
