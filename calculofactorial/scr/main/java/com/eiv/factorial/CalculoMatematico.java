@@ -1,6 +1,6 @@
 package com.eiv.factorial;
 
-public interface CalculoFactorial {
+public interface CalculoMatematico {
     
     public long Calcular(int numero);
 

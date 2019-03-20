@@ -1,6 +1,6 @@
 package com.eiv.factorial;
 
-public class CalculoFactorialAlt2Impl implements CalculoFactorial {
+public class CalculoFactorialAlt2Impl implements CalculoMatematico {
 
     @Override
     public long Calcular(int numero) {
